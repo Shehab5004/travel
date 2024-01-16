@@ -1,0 +1,35 @@
+/*nav related styles*/
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 200px;
+}
+
+.nav-title {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.text-primary {
+    color: #FF5400;
+}
+
+nav>ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 44px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #424247;
+}
+
